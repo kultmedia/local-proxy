@@ -5,7 +5,7 @@ This simple docker setup allows you to redirect a locally configured domain to y
 Specifically, this is currently used for forwarding:
 
 ```
-nle.local.styla.eu 
+nle.local.styla.dev 
 ```
 
 to
@@ -26,7 +26,7 @@ The redirect is currently hardcoded in the `httpd.conf` file (look for `ProxyPas
 ### Setting up the hosts file
 Run `sudo nano /etc/hosts` to open your hosts file. Then add the following line:
 ```
-127.0.0.1       nle.local.styla.eu
+127.0.0.1       nle.local.styla.dev
 ``````
 
 
@@ -38,7 +38,7 @@ Run `sudo nano /etc/hosts` to open your hosts file. Then add the following line:
 
 ### Done 🎉
 - Launch the service running at port 7008
-- Now access http://nle.local.styla.eu
+- Now access http://nle.local.styla.dev
 
 
 ---
@@ -50,9 +50,9 @@ In certain cases we might want to run the proxy in https. In this case, some ext
 - Install [mkcert](https://github.com/FiloSottile/mkcert) on your machine
 - Run `mkcert -install`
 - Now move into the `certs` folder of this project ( `cd certs` )
-- Run `mkcert nle.local.styla.eu 127.0.0.1 ::1`
+- Run `mkcert nle.local.styla.dev 127.0.0.1 ::1`
 - If the command worked correctly you should have two new files:
-   - `nle.local.styla.eu.pem`
-   - `nle.local.styla.eu.key.pem` 
+   - `nle.local.styla.dev.pem`
+   - `nle.local.styla.dev.key.pem` 
 - If the two files are not named like this, rename them accordingly
-- Restart the docker container. You should now be able to access the host also with https ( https://nle.local.styla.eu )
+- Restart the docker container. You should now be able to access the host also with https ( https://nle.local.styla.dev )
