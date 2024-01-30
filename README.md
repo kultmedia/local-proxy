@@ -19,7 +19,8 @@ This can be useful when using tools like [Resource Override](https://chromewebst
 
 ## Variables
 
-The project uses some variables that can be customized inside [Dockerfile](Dockerfile)
+The project uses some variables that can be customized inside [Dockerfile](Dockerfile).
+
 Here is the recap:
 
 | Variable Name | Description                                              | Default value       |
