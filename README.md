@@ -38,13 +38,12 @@ To have https working correctly, you will need to generate the certificates from
 - Install [mkcert](https://github.com/FiloSottile/mkcert) on your machine
 - Run `mkcert -install`
 - Now move into the `certs` folder of this project
-- Run `mkcert local.kultmedia.com 127.0.0.1 ::1` (if you customized the domain, use your custom one)
+- Run `mkcert local.kultmedia.com` (if you customized the domain, use your custom one)
 - If the command worked correctly you should have two new files:
    - `local.kultmedia.com.pem`
-   - `local.kultmedia.com.key.pem` 
-- If the two files are not named like this, rename them as specified above
+   - `local.kultmedia.com-key.pem` 
+- If, for some reasons, the two files are not named like this, rename them as above
   - In case you customized the domain, the certificates need to be renamed accordingly
-
 
 
 ### Running the Docker image

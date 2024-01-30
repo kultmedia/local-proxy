@@ -3,7 +3,7 @@ services:
   apache:
     build:
       context: .
-    container_name: local-proxy
+    container_name: local-https-proxy
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:
