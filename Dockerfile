@@ -5,5 +5,5 @@ COPY httpd-ssl.conf /usr/local/apache2/conf/extra/httpd-ssl.conf
 
 RUN mkdir -p /usr/local/apache2/certs
 
-COPY certs/nle.local.styla.dev.pem /usr/local/apache2/certs/nle.local.styla.dev.pem
-COPY certs/nle.local.styla.dev.key.pem /usr/local/apache2/certs/nle.local.styla.dev.key.pem
+COPY certs/local.kultmedia.com.pem /usr/local/apache2/certs/local.kultmedia.com.pem
+COPY certs/local.kultmedia.com.key.pem /usr/local/apache2/certs/local.kultmedia.com.key.pem

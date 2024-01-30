@@ -1,3 +1,2 @@
 
-certs/nle.local.styla.dev.key.pem
-certs/nle.local.styla.dev.pem
+certs/*.pem
