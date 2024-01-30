@@ -1,1 +1,0 @@
-certificate files go in this directory
