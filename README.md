@@ -54,7 +54,7 @@ To have https working correctly, you will need to generate the certificates from
 
 ### Done 🎉
 - Launch the service running at port 7008
-- Now access http://local.kultmedia.com
+- Now access https://local.kultmedia.com
 
 
 <br /><br />
