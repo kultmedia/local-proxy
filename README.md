@@ -14,7 +14,7 @@ and see the content that is being served by:
 http://localhost:7008
 ```
 
-This can be useful when using tools like [Resource Override](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii) to avoid CORS errors and other SSH issues
+This can be useful when using tools like [Resource Override](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii) to avoid CORS errors and other SSL issues
 
 
 ## Variables
