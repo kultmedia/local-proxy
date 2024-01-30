@@ -1,8 +1,8 @@
 # Local Proxy
 
-This simple docker setup allows you to redirect a locally configured domain to your localhost, pointing to a specific port number.
+This simple docker setup allows you to proxy a domain to your localhost, pointing to a specific port number.
 
-Specifically, this is currently used for forwarding:
+Specifically, this is currently used for proxying:
 
 ```
 local.kultmedia.com
