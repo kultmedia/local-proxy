@@ -1,6 +1,6 @@
 # 🔒 Local HTTPS Proxy
 
-This simple docker setup allows you access a domain via https which is internally proxied to your localhost at a specific port numer
+This simple docker setup allows you to access a domain via https which is internally proxied to your localhost at a specific port number
 
 For example, you can access:
 
@@ -14,12 +14,12 @@ and see the content that is being served by:
 http://localhost:7008
 ```
 
-This can be useful when using tools like [Resource Override](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii) to avoid CORS errors and other SSH issues.
+This can be useful when using tools like [Resource Override](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii) to avoid CORS errors and other SSH issues
 
 
 ## Variables
 
-The project is using some variables that can be customized inside [Dockerfile](Dockerfile)
+The project uses some variables that can be customized inside [Dockerfile](Dockerfile)
 Here is the recap:
 
 | Variable Name | Description                                              | Default value       |
@@ -32,7 +32,7 @@ Here is the recap:
 ## How to use
 
 ### Create the certificates
-In order to have https working correctly, you will need to generate the certificates from your machine
+To have https working correctly, you will need to generate the certificates from your machine
 
 - Install [mkcert](https://github.com/FiloSottile/mkcert) on your machine
 - Run `mkcert -install`
@@ -42,7 +42,7 @@ In order to have https working correctly, you will need to generate the certific
    - `local.kultmedia.com.pem`
    - `local.kultmedia.com.key.pem` 
 - If the two files are not named like this, rename them as specified above
-  - In case you customized the domain, the certificates need to be named accordingly, following the above mentioned naming convention
+  - In case you customized the domain, the certificates need to be renamed accordingly
 
 
 
