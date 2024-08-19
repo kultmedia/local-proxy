@@ -52,7 +52,7 @@ To have https working correctly, you will need to generate the certificates from
 
 
 ### Done 🎉
-- Launch the service running at port 7008
+- Launch the service running at the port configured in `CUSTOM_PORT` (7008 is the default)
 - Now access https://local.kultmedia.com
 
 
